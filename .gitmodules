@@ -1,3 +1,0 @@
-[submodule "php/PHPMailer"]
-	path = php/PHPMailer
-	url = https://github.com/PHPMailer/PHPMailer.git
