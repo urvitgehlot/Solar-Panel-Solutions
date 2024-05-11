@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: #; */
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-weight: 400;
+}
+
+.rating-container {
+    display: flex;
+}
+
+.rating-container .star {
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: #6AC949;
+}
+
+#product-form #rating {
+    display: none;
+
+}

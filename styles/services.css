@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: #; */
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+
+.services-container {
+    /* width: 100%; */
+}
+
+.services-container .img-container {
+    width: 100%;
+    /* height: 530px; */
+    aspect-ratio: 3/1.2;
+    margin: 50px 0px;
+    position: relative;
+}
+
+.services-container .img-container .img-back-box {
+    width: 97%;
+    aspect-ratio: 3/1;
+    /* height: 350px; */
+    background-color: #6AC949;
+    border-radius: 50px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px -30px 50px rgba(0, 0, 0, 0.25);
+}
+
+.services-container .img-container img {
+    width: 95%;
+    /* height: 500px; */
+    aspect-ratio: 3/1.2;
+
+    /* margin: 0px 2.5%; */
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    object-fit: cover;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.25);
+}
+
+.services-container h3 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    color: #6AC949;
+    margin: 20px auto;
+}
+
+.services-container h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #6AC949;
+}
+
+.services-container .service {
+    width: 60%;
+    /* height: 500px; */
+    background-color: #F4F4F4;
+    border-radius: 25px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.25);
+}
+
+.services-container .service .service-img-container {
+    width: 100%;
+    aspect-ratio: 3/1;
+    /* height: 250px; */
+    position: relative;
+}
+
+.services-container .service .service-img-container img {
+    width: 100%;
+    /* height: 250px; */
+    aspect-ratio: 3/1;
+    /* margin: 1.5%; */
+    object-fit: cover;
+    border-radius: 25px;
+    filter: brightness(40%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.services-container .service .service-img-container span {
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-container .service h4 {
+    font-size: 22px;
+    text-align: start;
+    color: #6AC949;
+    margin-top: 30px;
+}
+
+.services-container .service p {
+    font-size: 22px;
+    text-align: start;
+}
+
+.services-container .service button {
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    background-color: #6AC949;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+
+.nav-bar .nav-links ul a:nth-child(3) {
+    line-height: 75px;
+    color: #6AC949;
+    border-bottom: 3px solid #6AC949;
+
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: #; */
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+
+.cost-result-container {
+    width: 80vw;
+    /* max-width: 1200px; */
+    /* background-color: ; */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.cost-result-container .header {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.cost-result-container .header h2 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 150px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.cost-result-container .header .header-img-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../assets/images/solar5.jpg);
+    /* background-color: #00000060; */
+    filter: brightness(60%);
+    background-position: 100% 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cost-result-container .cost-result {
+    display: flex;
+    justify-content: spca;
+}
+
+.cost-result .cost-calculation-result {
+    width: 60%;
+    padding: 20px;
+    /* background-color: #6AC949; */
+}
+
+.cost-calculation-result h2 {
+    font-size: 55px;
+}
+
+.cost-calculation-result .result-group .row{
+    /* width: 100%; */
+    display: flex;
+
+
+}
+
+.cost-calculation-result .result-group .row ul {
+    /* width: ; */
+    list-style-type: none;
+    font-size: 35px;
+}
+
+.cost-calculation-result .result-group .row ul:nth-child(1) {
+    width: 60%;
+    /* list-style-type: none; */
+    border-left: 5px solid #6AC949;
+    padding-left: 5px;
+    margin-left: 30px;
+}
+
+.cost-calculation-result .result-group .row ul:nth-child(2) {
+    text-decoration: underline;
+}
+
+.cost-calculation-result .result-group .row ul li span{
+    color: #6AC949;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+.cost-calculation-result .button-group-row {
+    /* width: ; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+}
+
+.cost-calculation-result .button-group-row button {
+    width: 220px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #6AC949;
+    border: 2px solid black;
+    /* margin: 0px 50px; */
+    cursor: pointer;
+}
+
+.call-executives-container {
+    width: 40%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.call-executives-container img {
+    width: 60%;
+    /* min-width: 350px; */
+    /* height: 100; */
+    margin-bottom: 50px;
+}
+
+.call-executives-container button {
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #6AC949;
+    border: 2px solid black;
+    margin: 40px 0px;
+    cursor: pointer;
+}
